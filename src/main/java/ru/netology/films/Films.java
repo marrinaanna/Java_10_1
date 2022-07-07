@@ -2,8 +2,9 @@ package ru.netology.films;
 
 public class Films {
     private String filmName;
-    public Films(String filmName){
-        this.filmName=filmName;
+
+    public Films(String filmName) {
+        this.filmName = filmName;
     }
 
     public void set(String newFilmName) {
